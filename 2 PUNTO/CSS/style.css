@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    padding: 20px; 
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.izquierda {
+    width: 40.9%;
+    height: 100%;
+    background-color: #1aebb6; 
+}
+
+.derecha {
+    width: 60.1%;
+    height: 100%;
+    background-color: #fff; 
+}
+
+.form-container {
+    flex: 2;
+    padding: 20px; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container_form {
+    display: flex;
+    flex: 2;
+    position: absolute;
+    align-items: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+    width: 600px;
+    height: 450px;
+    background-color: #fff;
+    box-shadow: 0 0 35px rgba(65, 64, 64, 0.5); 
+    
+}
+
+.image-container {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1aebb6;
+
+ 
+}
+
+.image-container img {
+    height: 30%;
+    width:  60%;
+    
+}
+
+
+.form-group {
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+
+.form-group input {
+    left: 60px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    background-color: #fdfcfc;
+    border: 1px solid #eeecec;
+    margin-bottom: 10px;
+
+}
+
+.login-form #username::-webkit-input-placeholder,
+.login-form #password::-webkit-input-placeholder {
+    color: #e3e1e1;
+    
+    
+}
+h1{
+    position: absolute; 
+    top: 15px; 
+    left: 525px; 
+    font-size: 15px;
+    
+}
+
+h2{
+    margin-bottom: 25px;
+    font-size: 17px;
+    text-align: center;
+}
+
+label {
+    
+    font-size: 15px; 
+    color: #040404; 
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    
+}
+
+
+.form-password {
+    color: #121213;
+    text-decoration: none;
+    margin-left: 200px;
+    font-weight: bold;
+ 
+
+}
+
+.button {
+    position: absolute; 
+    top: 320px; 
+    left: 230px;
+    margin-top: 50px;
+    
+}
+
+.login-button {
+    text-align: center;
+    padding: 10px 60px;
+    background-color: #1aebb6;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    margin: 0 auto;
+    width: 570%;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    
+}
+
+/*------------------------ Miguel Martinez ------------------------------>*/
